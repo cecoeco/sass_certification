@@ -1,1 +1,1 @@
-# codecademy_sass
+# Learn Sass (codecademy)
