@@ -1,1 +1,50 @@
+/*
+Q. Which of the following is the correct notation for including the mixin-example?
+@mixin mixin-example($size){
+   font-size: $size;
+}
+A. @include mixin-example(12px);
+*/
 
+/*
+Q. What values are assigned to width and height for “.container”?
+@mixin dimensions($width: auto, $height: auto){
+   width: $width; 
+   height: $height; 
+}
+
+.container{ 
+   @include dimensions($height: 200px);
+}
+A. “width” has a value of “auto” and “height” has a value of “200px”.
+*/
+
+/*
+Q. Which of the following situations needs string interpolation in order for the code to compile?
+A. Both “background-image: url($string).jpg;” and “.$string{ width: 100px; height: 100px;}”
+*/
+
+/*
+Q. What is the value of “&” in the code below?
+.container{
+  .icon{
+    font-size: 12px;
+    
+    &:before{
+      position: absolute;
+      content: """; 
+    }
+  }
+}
+A. .container .icon
+*/
+
+/*
+Q. Which of the following is a false statement?
+A. You must pass in all mixin arguments in the order they appear inside the mixin definition
+*/
+
+/*
+Q. Which of the following is not allowed inside a mixin?
+A. All are allowed
+*/
