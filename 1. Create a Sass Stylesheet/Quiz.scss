@@ -1,0 +1,46 @@
+/*
+Q. What best describes the benefits of SCSS nesting syntax?
+A. Nesting can eliminate repetition and helps shows parent-child relationships in styling files.
+*/
+
+/*
+Q. What command allows you to compile SCSS to CSS?
+A. sass input.scss output.css
+*/
+
+/*
+Q. Which of the following statements is false?
+A. List values must be separated by commas.
+*/
+
+/*
+Q. What would be the output of the following SCSS in CSS?
+.button {
+  padding: 10px;
+  .label {
+    font-size: 30px;
+  }
+}
+A. 
+.button {
+  padding: 10px;
+} 
+.button .label { 
+  font-size: 30px;
+}
+*/
+
+/*
+Q. Which of the following data types is not supported by Sass?
+A. Arrays
+*/
+
+/*
+Q. What is the difference between Sass and CSS?
+A. Sass is a styling language built on top of CSS that allows for variables, nesting, mixins, and selector inheritance.
+*/
+
+/*
+Q. How can SCSS variables improve coding stylesheets?
+A. Variables improve maintainability and allow you to reuse values in multiple places.
+*/
