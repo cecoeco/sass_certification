@@ -1,1 +1,29 @@
+/*
+Q. What is a good characteristic of a sustainable SCSS code base?
+A. Good isolation of code logic inside of partials in appropriately named sub-folders
+*/
 
+/*
+Q. What document has access to the mixins, variables, placeholders from an imported file?
+A. The file that imports them has full access to the variables as though they were defined in that very file.
+*/
+
+/*
+Q. When should you extend a class as opposed to including a mixin?
+A. When the mixin takes no parameters
+*/
+
+/*
+Q. Where in the codebase should you include your import statement?
+A. At the top of your global or main SCSS file, or inside the file that will make use of its contents.
+*/
+
+/*
+Q. When should you make a placeholder class?
+A. When your HTML code actually never uses the class you are extending, only your SCSS code uses it to extend other classes
+*/
+
+/*
+Q. In the following examples, when is @import behaving as a SCSS import, not a CSS import?
+A. When the file’s extension is .scss
+*/
